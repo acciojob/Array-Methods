@@ -8,6 +8,7 @@ The callback function can take in up to three parameters:
 2. The current index in the array.
 3. The array itself.
 
+
 2. myFilter(callback)
 Without mutating the original array, this function should call the passed callback function on every element of the array and return a new array containing the values of the original array that, when passed to the callback function, returned true. These values should maintain their original order.
 The callback function takes in the same arguments as the ones that the callback function in myMap takes in.
