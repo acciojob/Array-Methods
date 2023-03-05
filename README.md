@@ -3,10 +3,10 @@ Without calling Array.prototype.map(). Array.prototype.filter(). Array.prototype
 1. myMap(callback)
 Without mutating the original array, this function should call the passed callback function on every element of the array and return a new array containing the results of all these calls, in the corresponding order.
 
-The callback function can take in up to three parameters:
-1. The current value in the array.
-2. The current index in the array.
-3. The array itself.
+    The callback function can take in up to three parameters:
+      1. The current value in the array.
+      2. The current index in the array.
+      3. The array itself.
 
 
 2. myFilter(callback)
