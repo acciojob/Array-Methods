@@ -1,11 +1,14 @@
-Array.prototype.myMap = function (callback) {
-  // Write your code here.
-};
+Array.prototype.myMap = function(callback) {
+    
+  };
+  
+  Array.prototype.myFilter = function(callback) {
+  
+  };
+  
+  Array.prototype.myReduce = function(callback, initialValue) {
 
-Array.prototype.myFilter = function (callback) {
-  // Write your code here.
-};
-
-Array.prototype.myReduce = function (callback, initialValue) {
-  // Write your code here.
-};
+  };
+  
+  
+module.exports = Array.prototype;
