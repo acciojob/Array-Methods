@@ -1,6 +1,9 @@
-Without calling Array.prototype.map(). Array.prototype.filter(). Array.prototype.reduce(), or Array.prototype.forEach(), implement the following three similar functions on the Array prototype:
+## Array Methods
 
-1. myMap(callback)
+### Without calling `Array.prototype.map()`, `Array.prototype.filter()`, `Array.prototype.reduce()`, or `Array.prototype.forEach()`, implement the following three similar functions on the Array prototype:
+
+**1. myMap(callback)**
+
 Without mutating the original array, this function should call the passed callback function on every element of the array and return a new array containing the results of all these calls, in the corresponding order.
 
     The callback function can take in up to three parameters:
@@ -9,11 +12,13 @@ Without mutating the original array, this function should call the passed callba
       3. The array itself.
 
 
-2. myFilter(callback)
+**2. myFilter(callback)**
+
 Without mutating the original array, this function should call the passed callback function on every element of the array and return a new array containing the values of the original array that, when passed to the callback function, returned true. These values should maintain their original order.
 The callback function takes in the same arguments as the ones that the callback function in myMap takes in.
 
-3. myReduce(callback, initialValue)
+**3. myReduce(callback, initialValue)**
+
 Without mutating the original array, this function should call the passed callback function on every element of the array and return the result of the last call to the callback.
 
 The callback function can take in up to four parameters:
